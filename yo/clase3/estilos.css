@@ -1,0 +1,79 @@
+.contenedor
+{
+    width: 50%;
+    border-radius: 5px;
+    background-color: rgb(117, 117, 117);
+    margin: 7px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input[type=text]
+{
+    width: 100%;
+    padding:  12px 20px;
+    margin:  8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button]
+{
+    color: white;
+    background-color: rgb(98, 143, 56);
+    width: 50%; 
+    height: 30px;
+    border: none;
+    border-radius:3px;  
+    padding: 14px 20px; 
+    margin:  8px 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+th, td
+{
+    text-align: left;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+th
+{
+    background-color: rgb(22, 116, 153);
+    color: white;
+}
+
+tr:nth-child(even)
+{
+  background-color: rgb(117, 117, 117);  
+  box-sizing: border-box;
+}
+
+.sinError
+{
+    border: 1px solid #ccc;
+}
+
+.error
+{
+    border: 1px solid red;
+}
+
+/* .boton
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(98, 143, 56);
+    width: 300px; 
+    height: 30px;
+    border-radius:3px;  
+    padding: 20px; 
+    cursor: pointer;
+} */

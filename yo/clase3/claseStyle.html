@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>"./funciones.js"</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head> 
+<body>
+    <div class="contenedor">
+        <label for="name">Nombre</label>        
+        <br/>
+        <input type="text" name="Nombre" id="name" placeholder="tu nombre...">
+        <br/><br/>
+        <label for="lastName">Apellido</label>
+        <br/>
+        <input type="text" name="Apellido" id="lastName" placeholder="tu apellido...">
+        <br/><br/>
+        <input type="button" value="guardar" id"save">
+        <br>
+    </div>
+    
+    <h2>Lista de personas</h2>
+    <table border="2" id="table">
+        <thead>
+            <br/>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Acción</th>
+        </thead>           
+
+    <tbody id="tabla">
+        <tr>
+            <td>Pedro</td>
+            <td>García</td>
+            <td><a href=''>Borrar</td>
+        </tr>
+    </tbody>
+
+    </table>
+
+</body>
+</html>
